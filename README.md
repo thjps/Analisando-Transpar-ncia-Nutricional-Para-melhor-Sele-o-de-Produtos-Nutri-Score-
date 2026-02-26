@@ -14,12 +14,12 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 Este projeto nasceu de uma inquietação pessoal: **as nossas escolhas no supermercado são baseadas em factos ou em marketing?** Utilizando a base de dados do *Open Food Facts*, analisei milhares de produtos disponíveis em Portugal para encontrar padrões de qualidade, preço e as "armadilhas" escondidas nos rótulos. O objetivo principal foi substituir a percepção pela evidência, criando métricas próprias de transparência onde o Nutri-Score ainda não chega.
 
 ---
 
-## 🔍 Principais Descobertas (Os 5 Pilares)
+## Principais Descobertas (Os 5 Pilares)
 
 ### 1. O Paradoxo das Marcas de Distribuidor (MDD) vs. Marcas Líderes
 Foi possível explorar o cenário nutricional do produtos em Portugal através desta pesquisa, um dos objetivos centrais foi desmistificar a ideia de que o preço mais baixo das Marcas de Distribuidor (as chamadas "marcas brancas") estaria associado a uma qualidade nutricional inferior. Ao comparar essas marcas com marcas líderes, os dados mostraram uma **equivalência quase total** nos teores de açúcar e proteína. 
@@ -46,7 +46,7 @@ Os dados provam a correlação: quanto mais ingredientes, maior a degradação.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **PowerQuery (Excel):** Processamento e limpeza inicial dos dados.
 * **Google BigQuery:** Processamento de grandes volumes de dados (Big Data).
 * **SQL (ANSI):** CTEs, Agregações complexas e limpeza de Outliers.
@@ -54,14 +54,18 @@ Os dados provam a correlação: quanto mais ingredientes, maior a degradação.
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 * `/queries`: Contém todos os ficheiros `.sql` utilizados nas 5 perguntas da análise.
 * `/data`: Documentação sobre a origem dos dados.
 
 ---
 
-## 💡 Conclusão
-Este projeto demonstra que a transparência ainda não é a regra no corredor do supermercado. Através do SQL, foi possível transformar tabelas complexas em decisões de compra muito mais saudáveis e económicas. **O dado é o melhor nutricionista.**
+## Conclusão
+Este projeto demonstra que a transparência ainda não é a regra no corredor do supermercado. Através do SQL, foi possível transformar tabelas complexas em decisões de compra muito mais saudáveis e económicas. Além disso, esta análise demonstra que a transparência nutricional no mercado ainda é um terreno em construção. Através do cruzamento de dados via SQL, foi possível extrair três conclusões estratégicas:
+
+1. **Eficiência vs. Preço:** O sucesso das marcas próprias (MDD) prova que é possível democratizar o acesso a produtos com bom perfil nutricional. A paridade técnica entre marcas líderes e marcas de distribuidor abre portas para uma economia consciente sem sacrificar a saúde.
+2. **O GAP da Indústria:** Identificámos um vazio crítico para produtos *Clean Label*. O mercado está saturado de ultraprocessados complexos; há uma oportunidade clara para marcas que simplifiquem os seus rótulos, reduzindo o sódio no pão e o açúcar camuflado em snacks "fit".
+3. **Literacia de Dados:** Mais do que uma análise técnica, este projeto reforça que o dado bruto é o melhor antídoto contra o marketing agressivo. A capacidade de traduzir gramas e miligramas em insights de saúde pública é o que permite ao consumidor — e às empresas — evoluir para escolhas mais éticas e saudáveis.
 
 ---
 <div align="center">
