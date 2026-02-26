@@ -64,5 +64,5 @@ Este projeto demonstra que a transparência ainda não é a regra no corredor do
 
 ---
 <div align="center">
-Desenvolvido por [O Teu Nome] • 2026
+Desenvolvido por [Thiago Pordeus] • 2026
 </div>
