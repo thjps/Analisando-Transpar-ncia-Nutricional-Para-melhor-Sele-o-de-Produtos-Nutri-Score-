@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🥗 Transparência Nutricional: Descodificando o Mercado em Portugal
+# Analisando Transparência Nutricional Para melhor Seleção de Produtos(Nutri-Score).
 **Uma análise profunda via SQL (BigQuery) sobre o que realmente comemos.**
 
 ![SQL](https://img.shields.io/badge/SQL-Full_Analysis-blue?style=for-the-badge&logo=postgresql)
