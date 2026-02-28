@@ -1,6 +1,6 @@
 <div align="center">
 
-# Analisando Transparência Nutricional Para melhor Seleção de Produtos(Nutri-Score).
+# Analisando Transparência Nutricional (Nutri-Score).
 **Uma análise profunda via SQL (BigQuery) sobre o que realmente comemos.**
 
 ![SQL](https://img.shields.io/badge/SQL-Full_Analysis-blue?style=for-the-badge&logo=postgresql)
@@ -24,26 +24,34 @@ Este projeto nasceu de uma inquietação pessoal: **as nossas escolhas no superm
 ### 1. O Paradoxo das Marcas de Distribuidor (MDD) vs. Marcas Líderes
 Foi possível explorar o cenário nutricional do produtos em Portugal através desta pesquisa, um dos objetivos centrais foi desmistificar a ideia de que o preço mais baixo das Marcas de Distribuidor (as chamadas "marcas brancas") estaria associado a uma qualidade nutricional inferior. Ao comparar essas marcas com marcas líderes, os dados mostraram uma **equivalência quase total** nos teores de açúcar e proteína. 
 > **Insight:** Em Portugal, a marca própria é uma decisão de poupança inteligente sem perda de qualidade básica.
+![Marcas Próprias vs Líderes](<Gráficos (Charts)/01_mdd_vs_lideres_acucar.png>)
+
 
 ### 2. A "Armadilha" do Açúcar Oculto por Categoria
 Identifiquei uma disparidade alarmante:
 * **83% das barras de cereais** analisadas são autênticas bombas de açúcar (>15g/100g).
 * Nos sumos, o processamento elimina quase toda a fibra (média de **0,45g**), restando apenas o açúcar livre.
+![Ranking Açúcar Marketing](<Gráficos (Charts)/02_ranking_acucar_marketing.png>)
+  
 
 ### 3. Eficiência Proteica: O Custo Calórico do Músculo
 Criei a métrica de **Densidade Proteica** (Proteína por 100kcal):
 * **Campeões:** Peixes e Marisco (13g de proteína/100kcal).
 * **Oportunidade:** Laticínios proteicos de Marca Própria oferecem a melhor relação custo-benefício para dietas fitness e saúde na terceira idade.
+![Eficiência Proteica](<Gráficos (Charts)/03_eficiencia_proteica_nicho.png>)
+  
 
 ### 4. O Desafio do Sal em Portugal: Cumprimento de Metas
 O sal é o inimigo invisível. No setor da panificação, **4 em cada 10 pães** excedem o limite de 1.0g de sal por 100g. 
 * A média detetada de **1.1g** prova que o excesso de sódio é um padrão estrutural na padaria de prateleira portuguesa.
 * Entretanto, segundo a DGS, os alimentos processados entram em estado de alerta acima dos 1,5g de sal/100g. A nossa análise mostra que o Pão (1.1g) e os Snacks (1.13g) estão dentro deste limite regulamentar. No entanto, como a OMS recomenda um máximo de 5g diários, o consumo de apenas 100g de pão já esgota mais de 20% da cota diária de sal de um adulto, destacando a necessidade de moderação nestas categorias.
+![Desafio do Sal](<Gráficos (Charts)/04_desafio_sal_padaria_snacks.png>)
 
 ### 5. Oportunidade de Mercado: O "Vazio" dos Ultraprocessados Saudáveis
 Os dados provam a correlação: quanto mais ingredientes, maior a degradação.
 * Enquanto produtos simples têm menos de 2g de açúcar, o **ultraprocessado médio ultrapassa os 20g** (um aumento de 1000%). 
 * Identifiquei uma janela enorme para produtos **Clean Label** no mercado nacional.
+![Oportunidade Clean Label](<Gráficos (Charts)/05_oportunidade_clean_label.png>)
 
 ---
 
