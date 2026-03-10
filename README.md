@@ -52,7 +52,7 @@ O sal é o inimigo invisível. No setor da panificação, **4 em cada 10 pães**
 
 ### 5. Oportunidade de Mercado: O "Vazio" dos Ultraprocessados Saudáveis
 Os dados provam a correlação: quanto mais ingredientes, maior a degradação.
-* Enquanto produtos simples têm menos de 2g de açúcar, o **ultraprocessado médio ultrapassa os 20g** (um aumento de 1000%). 
+* Enquanto produtos simples têm menos de 2g de açúcar, o **ultraprocessado médio ultrapassa os 20g**. 
 * Identifiquei uma janela enorme para produtos **Clean Label** no mercado nacional.
 
 ![Oportunidade Clean Label](<Gráficos (Charts)/05_oportunidade_clean_label.png>)
